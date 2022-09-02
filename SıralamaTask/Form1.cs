@@ -16,7 +16,7 @@ namespace SıralamaTask
         {
 
 
-            MessageBox.Show("Sıralama algoritması için selection sort ve quic sort kullanılacak ");
+            MessageBox.Show("Sıralama algoritması için selection sort ve buble sort kullanılacak ");
             Random random = new Random(); // 1 mil yon sayıyı rastgele üretecek.
             int[] sayilar = new int[1000];
             rchtxt1.Text += "uretilen sayilar" + "\n";
